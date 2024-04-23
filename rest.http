@@ -1,8 +1,9 @@
-###Get a list of all products
-GET http://localhost:4000/products
+### Todo: Adjust IP to your Docker Server IP 
+### Step 1: List products
+GET http://167.172.164.121:4000/products
 
-### Create a product
-POST http://localhost:4000/products
+### Step 2: Create a product
+POST http://167.172.164.121:4000/products
 Content-Type: application/json
 
 {
@@ -10,11 +11,11 @@ Content-Type: application/json
   "price": 4999
 }
 
-### GET a product by id
-GET http://localhost:4000/products/5df118b3c86e5826958b661a
+### Step 3: GET a product by id (ADJUST id from RESPONSE in Step 1) 
+GET http://167.172.164.121:4000/products/6627be325e6c010012864861
 
-### Update a product by id
-PATCH  http://localhost:4000/products/5df118b3c86e5826958b661a
+### Update a product by id (ADJUST id fro RESPONSE in Step 2) 
+PATCH  http://167.172.164.121:4000/products/6627be325e6c010012864861
 Content-Type: application/json
 
 {
@@ -22,44 +23,9 @@ Content-Type: application/json
 }
 
 
-### Delete a product by id
-DELETE  http://localhost:4000/products/5df118b3c86e5826958b661a
+### Delete a product by id (ADJUST id fro RESPONSE in Step 2) 
+DELETE  http://167.172.164.121:4000/products/6627be325e6c010012864861
 
 ### 404 route Not Found
-GET http://localhost:4000/abc_xyz
+GET http://167.172.164.121:4000/abc_xyz
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#hrXWgw4Q127uqZJ3
