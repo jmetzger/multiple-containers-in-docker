@@ -4,6 +4,8 @@ services:
   # Mongodb service
   mongo_db:
     container_name: db_container
+    ports:
+      - 127.0.0.1:27017:27017
     image: mongo:latest
     restart: always
     volumes:
