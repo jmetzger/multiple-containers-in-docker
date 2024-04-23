@@ -10,14 +10,11 @@ The application is **production ready**, and can be used behind a Nginx reverse 
 
 #### To start setting up the project
 
-Step 1: Clone the repo
+
 
 ```bash
-git clone https://github.com/trulymittal/Nodejs-REST-API.git
+git clone https://github.com/jmetzger/multiple-containers-in-docker.md mcid
 ```
-
-Step 2: cd into the cloned repo and run:
-
 ```bash
 npm install
 ```
@@ -38,9 +35,7 @@ Step 4: Start the API by
 npm start
 ```
 
-## Author
 
-- [**Truly Mittal**](https://trulymittal.com)
 
 ## License
 
